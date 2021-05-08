@@ -77,6 +77,16 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
+	
+	
+
+	public Seller getSeller() {
+		return seller;
+	}
+
+	public void setSeller(Seller seller) {
+		this.seller = seller;
+	}
 
 	@Override
 	public int hashCode() {
